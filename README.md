@@ -17,3 +17,9 @@ Para rodar o arquivo 'dataTransforming.py' projeto precisa instalar a biblioteca
 ``
 sudo pip install tabula-py
 ``
+
+e
+
+``
+sudo pip install JPype1
+``
