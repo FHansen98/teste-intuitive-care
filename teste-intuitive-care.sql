@@ -38,9 +38,7 @@ CREATE TABLE ACOES (
         REFERENCES EMPRESAS (Registro_ANS)
 );
 
-select * from EMPRESAS;
-SHOW VARIABLES LIKE "secure_file_priv";
-LOAD LOCAL DATA INFILE '/home/ssdfhansen/Documentos/03_Dev/Estagio/teste-intuitive-care/Relatorio_cadop.csv' INTO TABLE EMPRESAS
+LOAD LOCAL DATA INFILE './Relatorio_cadop.csv' INTO TABLE EMPRESAS
 CHARACTER SET utf8
 FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
